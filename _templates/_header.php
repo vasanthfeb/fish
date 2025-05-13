@@ -9,10 +9,28 @@
                 <button class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci expedita sequi ab dignissimos eaque alias! Perferendis, ratione velit accusamus maxime ea quidem veritatis commodi minima voluptatibus ab earum consequatur itaque?</p>
+               <nav>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                </ul>
+               </nav>
             </div>
 
         </div>
     </div>
 
 </nav>
+
+<style>
+    .offcanvas{
+        background-image: url("./assets/img/left_bg.jpg");
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        backdrop-filter: blur(90px) !important;
+    }
+</style>
