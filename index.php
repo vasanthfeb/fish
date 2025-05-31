@@ -1,8 +1,12 @@
+<?php 
+require_once $_SERVER['DOCUMENT_ROOT']."/fish/libs/_load.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <?php
-  include('./_templates/_head.php');
+  load_template('_head');
 
   ?>
 </head>
@@ -11,12 +15,12 @@
 
 <header>
     <?php
-    include_once('./_templates/_header.php');
+    load_template('_header');
     ?>
 </header>
 <main>
 <?php
-include_once('./_templates/_slide.php')
+load_template('_slide');
 
 ?>
 </main>
@@ -24,7 +28,7 @@ include_once('./_templates/_slide.php')
 
 
 <?php
-include_once('./_templates/_footer_links.php')
+load_template('_footer_links');
 
 ?>
 </body>
