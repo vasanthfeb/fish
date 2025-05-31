@@ -14,7 +14,12 @@
     include_once('./_templates/_header.php');
     ?>
 </header>
+<main>
+<?php
+include_once('./_templates/_slide.php')
 
+?>
+</main>
 
 
 

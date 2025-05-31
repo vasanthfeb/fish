@@ -32,9 +32,13 @@
         background-position: center;
         background-size: cover;
         overflow: hidden;
+        filter: blur(3px);
+        z-index: 2;
        
     }
     .nav_bg{
         background-color: #003280;
+        height: 56px !important;
     }
+  
 </style>
